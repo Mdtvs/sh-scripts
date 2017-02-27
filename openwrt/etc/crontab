@@ -1,0 +1,15 @@
+SHELL=/bin/sh
+00 22 * * * root /etc/shutdown.sh
+10 * * * * root /etc/ping.sh
+
+#перезагрузка в 4 часа утра
+
+#00 04 * * * /etc/shutdown.sh
+
+#перезагрузка в 13-00
+
+#00 13 * * * /etc/shutdown.sh
+
+#перезагрузка в 9-00 утра
+
+#00 09 * * * /etc/shutdown.sh
